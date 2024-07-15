@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+<body>
+    <section class="w-100 h-100">
+        <div class="container">
+            <div class="form ">
+                <input type="number" placeholder="0" id="screen">
+                <br>
+                <button type="button" class="btn btn-secondary" id="delete" onclick="deleteLast()">Del</button>
+                <button type="button" class="btn btn-secondary" id="C" onclick="window.location.reload()">C</button>
+                <br>
+    
+                <button type="button" class="btn btn-primary" id="7" onclick="getNumbers(7)">7</button>
+                <button type="button" class="btn btn-primary" id="8"onclick="getNumbers(8)">8</button>
+                <button type="button" class="btn btn-primary" id="9"onclick="getNumbers(9)">9</button>
+                <button type="button" class="btn btn-primary" id="min" onclick="getOperators('-')">-</button>
+    
+                <br>
+                <button type="button" class="btn btn-primary" id="4" onclick="getNumbers(4)">4</button>
+                <button type="button" class="btn btn-primary" id="5" onclick="getNumbers(5)">5</button>
+                <button type="button" class="btn btn-primary" id="6" onclick="getNumbers(6)">6</button>
+                <button type="button" class="btn btn-primary" id="plus" onclick="getOperators('+')">+</button>
+    
+                <br>
+                <button type="button" class="btn btn-primary" id="1" onclick="getNumbers(1)">1</button>
+                <button type="button" class="btn btn-primary" id="2" onclick="getNumbers(2)">2</button>
+                <button type="button" class="btn btn-primary" id="3" onclick="getNumbers(3)">3</button>
+                <button type="button" class="btn btn-primary" id="div"  onclick="getOperators('/')">/</button>
+    
+                <br>
+                <button type="button" class="btn btn-primary" id="0" onclick="getNumbers(0)">0</button>
+                <button type="button" class="btn btn-primary" id="dec">.</button>
+                <button type="button" class="btn btn-primary" id="equal" onclick="calculate() ">=</button>
+                <button type="button" class="btn btn-primary" id="mul" onclick="getOperators('*')">*</button>
+    
+    
+        </div>
+    
+    </div>
+    
+    </section>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

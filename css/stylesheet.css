@@ -1,0 +1,25 @@
+.container{
+    width: 40%;
+    padding-top: 10%;
+   
+}
+.form{
+    width: 250px;
+    padding: 5px;
+    margin: auto;
+    border : 5px solid #bbb;
+}
+input{
+    padding: 5px;
+    width: 95%;
+    margin: 3%;
+}
+button{
+    width: 45px;
+    margin: 2%;
+    font-size: large !important;
+    font-weight: bold !important;
+}
+.btn-secondary{
+    background-color: #515151 !important;
+}
